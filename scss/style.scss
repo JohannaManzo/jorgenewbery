@@ -1,0 +1,267 @@
+@import "../scss/components/variables";
+@import "../scss/components/socios";
+@import "../scss/components/galeria";
+@import "../scss/components/footer";
+@import "../scss/components/elclub";
+@import "../scss/components/disciplinas";
+@import "../scss/components/404";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+.dropdown-item a:active {
+    background-color: nth($list: $colores, $n: 4 ); 
+}
+
+.barra-black {
+    background-color: nth($list: $colores, $n: 1 ) ;
+    height: 70px;
+}
+
+/* PARALLAX INDEX */
+
+.sect1 {
+    background-image: url("../images/arco.jpeg");
+    @extend %parallax
+}
+
+.title-parallax1 {
+    text-align: center;
+    @extend  %title-parallax;
+}
+
+/* TITLE */
+
+.lo-ultimo {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    padding-bottom: 50px;
+    color: nth($list: $colores, $n: 4 );
+}
+
+/* ARTICULOS */
+
+.post-list {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+}
+
+.contenido-index {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.post-img-1 {
+    background: url("../images/armado1.jpg");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+
+.post-img-2 {
+    background: url("../images/testeos1.png");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+
+.post-img-3 {
+    background: url("../images/indumentaria.jpg");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+
+.post-img-4 {
+    background: url("/images/frente.jpg");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+
+.post-img-5 {
+    background: url("/images/full.png");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+
+.post-img-6 {
+    background: url("../images/indumentaria.jpg");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+
+.post {
+    box-shadow: 0 1px 6px 1px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    transition: .2s;
+}
+
+.post:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 1px 14px 2px rgba(0, 0, 0, .15);
+}
+
+.post-header {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.post:hover .post-img-1 ,
+.post:hover .post-img-2 ,
+.post:hover .post-img-3 {
+   transform: scale(1.1);
+}
+
+.post-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.post-body span {
+    display: inline-block;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.post-body h5 {
+    margin-bottom: 15px;
+}
+
+.post-body p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.post-body .post-link {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background: nth($list: $colores, $n: 5);
+    color: nth($list: $colores, $n: 11);
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, .1);
+    transition: .2s;
+}
+
+.post-body .post-link:hover {
+    background: nth($list: $colores, $n: 6);
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, .2);
+    transform: translateY(-2px);
+}
+
+.banner2 {
+    width: 1000px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 100px;
+
+    background-size: 100% 100%;
+
+    animation-name: banner2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate;
+}
+
+@keyframes banner2 {
+    0%, 30% {
+        background-image: url("../images/banner4.jpg");
+        
+    }
+    35% , 65% {
+        background-image: url("../images/banner5.jpg");
+        
+    }
+    70% , 100% {
+        background-image: url("../images/banner6.jpg");
+    }
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 400px) {
+    .title-parallax1 {
+        width: 90%;
+        font-size: 20px;
+    }
+    .ultimo {
+        position: relative;
+        right: 20%;
+        padding-bottom: 35px;
+    }
+    .banner2 {
+        width: 90%;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .lo-ultimo {
+        padding-bottom: 100px;
+    }
+    .operativo-sanitario {
+        position: relative;
+        bottom: 100%;
+        left: 35%;
+    }
+    .parrafo-os {
+        position: relative;
+        bottom: 95%;
+        left: 35%; 
+        margin-bottom: 50%;
+    }
+    .aside2 {
+        position: relative;
+        right: 0;
+        
+        margin-bottom: 20%;
+    }
+}
+
+/* MEDIAS QUERIES */
+
+@media screen and (max-width: 960px) {
+    .contenido-index {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 400px) {
+    .contenido-index {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+

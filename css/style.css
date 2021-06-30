@@ -1,0 +1,1113 @@
+/* COLORS */
+/* FONTS */
+/* EXTENDS */
+.sect1, .sect3, .sect2, .sect5, .sect4 {
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.title-parallax1, .title-parallax {
+  display: flex;
+  color: #b22222;
+  width: 800px;
+  height: 100px;
+  margin: auto;
+  padding-top: 250px;
+}
+
+/* EXTEND DISCIPLINAS */
+/* Estilo para los titulos de categorias en DISCIPLINAS */
+.style-categorias {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: #ff0000;
+  text-transform: uppercase;
+  text-indent: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* SEPARADOR */
+.negra {
+  color: #000000;
+  position: relative;
+  left: 90px;
+}
+
+.escudo-separador {
+  position: relative;
+  left: 600px;
+  bottom: 50px;
+}
+
+.roja {
+  margin-right: 0;
+  color: #ff0000;
+  position: relative;
+  left: 680px;
+  bottom: 89px;
+}
+
+/* COLORS */
+/* FONTS */
+/* EXTENDS */
+.sect1, .sect3, .sect2, .sect5, .sect4 {
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.title-parallax1, .title-parallax {
+  display: flex;
+  color: #b22222;
+  width: 800px;
+  height: 100px;
+  margin: auto;
+  padding-top: 250px;
+}
+
+/* EXTEND DISCIPLINAS */
+/* Estilo para los titulos de categorias en DISCIPLINAS */
+.style-categorias {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: #ff0000;
+  text-transform: uppercase;
+  text-indent: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* SEPARADOR */
+.negra {
+  color: #000000;
+  position: relative;
+  left: 90px;
+}
+
+.escudo-separador {
+  position: relative;
+  left: 600px;
+  bottom: 50px;
+}
+
+.roja {
+  margin-right: 0;
+  color: #ff0000;
+  position: relative;
+  left: 680px;
+  bottom: 89px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+.dropdown-item a:active {
+  background-color: #CA221F;
+}
+
+.barra-black {
+  background-color: #000000;
+  height: 70px;
+}
+
+/* SOCIOS */
+.sect4 {
+  background-image: url("../images/pelota.jpg");
+}
+
+.title-parallax {
+  text-align: center;
+}
+
+.novedades-h1 {
+  position: relative;
+  bottom: 200px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.novedades {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: #000000;
+  width: 500px;
+  position: relative;
+  left: 50px;
+  top: 100px;
+  padding-bottom: 400px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* COLORS */
+/* FONTS */
+/* EXTENDS */
+.sect1, .sect3, .sect2, .sect5, .sect4 {
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.title-parallax1, .title-parallax {
+  display: flex;
+  color: #b22222;
+  width: 800px;
+  height: 100px;
+  margin: auto;
+  padding-top: 250px;
+}
+
+/* EXTEND DISCIPLINAS */
+/* Estilo para los titulos de categorias en DISCIPLINAS */
+.style-categorias {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: #ff0000;
+  text-transform: uppercase;
+  text-indent: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* SEPARADOR */
+.negra {
+  color: #000000;
+  position: relative;
+  left: 90px;
+}
+
+.escudo-separador {
+  position: relative;
+  left: 600px;
+  bottom: 50px;
+}
+
+.roja {
+  margin-right: 0;
+  color: #ff0000;
+  position: relative;
+  left: 680px;
+  bottom: 89px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+.dropdown-item a:active {
+  background-color: #CA221F;
+}
+
+.barra-black {
+  background-color: #000000;
+  height: 70px;
+}
+
+/* PARALLAX GALERIA */
+.sect5 {
+  background-image: url("../images/galeria.jpeg");
+}
+
+.title-parallax {
+  text-align: center;
+}
+
+/* ESTILO PARA EL CONTENIDO DE GALERIA */
+.galeria {
+  padding-bottom: 250px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.grupo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.h1galeria {
+  font-size: 25px;
+  font-family: "Noto Sans JP";
+  color: #ff0000;
+  letter-spacing: 2px;
+  position: relative;
+  left: 50px;
+  top: 140px;
+}
+
+.h2galeria {
+  font-size: 25px;
+  font-family: "Noto Sans JP";
+  color: #ff0000;
+  letter-spacing: 2px;
+  position: relative;
+  left: 50px;
+  bottom: 100px;
+}
+
+/* FOTOS */
+.fotos {
+  position: relative;
+  top: 100px;
+}
+
+.fotos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  padding: 120px;
+  grid-gap: 15px;
+}
+
+.gallery-item:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+.gallery-item:nth-child(3) {
+  grid-row-start: span 2;
+}
+
+.gallery-item:nth-child(4) {
+  grid-column-start: span 2;
+}
+
+.gallery-item:nth-child(6) {
+  grid-column-start: span 2;
+}
+
+.gallery-item:nth-child(7) {
+  grid-column-start: span 2;
+}
+
+.gallery-item:nth-child(8) {
+  grid-row-start: span 2;
+}
+
+.gallery-item:nth-child(12) {
+  grid-column-start: span 2;
+}
+
+.gallery-item:nth-child(16) {
+  grid-row-start: span 2;
+}
+
+.gallery-item:nth-child(22) {
+  grid-column-start: span 2;
+}
+
+.gallery-item:nth-child(25) {
+  grid-row-start: span 2;
+}
+
+/* VIDEOS */
+.videos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  position: relative;
+  top: 200px;
+  padding-left: 80px;
+  padding-right: 60px;
+  padding-top: 10px;
+}
+
+.video1:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+.video2:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+.video3:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 400px) {
+  .title-parallax {
+    position: relative;
+    left: 40%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .videos {
+    margin-right: 20%;
+    margin-bottom: 20%;
+  }
+
+  .video1 {
+    width: 100px;
+  }
+
+  .video2 {
+    width: 100px;
+  }
+
+  .video3 {
+    width: 100px;
+  }
+
+  .galeria {
+    padding-bottom: 50px;
+  }
+}
+/* COLORS */
+/* FONTS */
+/* EXTENDS */
+.sect1, .sect3, .sect2, .sect4, .sect5 {
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.title-parallax1, .title-parallax {
+  display: flex;
+  color: #b22222;
+  width: 800px;
+  height: 100px;
+  margin: auto;
+  padding-top: 250px;
+}
+
+/* EXTEND DISCIPLINAS */
+/* Estilo para los titulos de categorias en DISCIPLINAS */
+.style-categorias {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: #ff0000;
+  text-transform: uppercase;
+  text-indent: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* SEPARADOR */
+.negra {
+  color: #000000;
+  position: relative;
+  left: 90px;
+}
+
+.escudo-separador {
+  position: relative;
+  left: 600px;
+  bottom: 50px;
+}
+
+.roja {
+  margin-right: 0;
+  color: #ff0000;
+  position: relative;
+  left: 680px;
+  bottom: 89px;
+}
+
+/* FOOTER */
+.conteiner-footer {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ul-footer {
+  list-style: none;
+  position: relative;
+  right: 30px;
+}
+
+.footer {
+  margin-top: 100px;
+  background-color: #000000;
+  padding: 70px 0;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h6 {
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: none;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h6::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  background-color: #ffffff;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li p {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li p:hover {
+  color: #CA221F;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: #4D5656;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/* MEDIAS QUERIES */
+@media screen and (max-width: 400px) {
+  .footer {
+    width: 100%;
+  }
+
+  .footer-col {
+    width: 90%;
+    padding-left: 10%;
+  }
+
+  .footer-icon {
+    position: relative;
+    bottom: 25%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .footer {
+    width: 100%;
+  }
+
+  .footer-col {
+    width: 90%;
+    padding-left: 10%;
+  }
+
+  .footer-icon {
+    position: relative;
+    bottom: 25%;
+  }
+}
+/* COLORS */
+/* FONTS */
+/* EXTENDS */
+.sect1, .sect3, .sect2, .sect4, .sect5 {
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.title-parallax1, .title-parallax {
+  display: flex;
+  color: #b22222;
+  width: 800px;
+  height: 100px;
+  margin: auto;
+  padding-top: 250px;
+}
+
+/* EXTEND DISCIPLINAS */
+/* Estilo para los titulos de categorias en DISCIPLINAS */
+.style-categorias {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: #ff0000;
+  text-transform: uppercase;
+  text-indent: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* SEPARADOR */
+.negra {
+  color: #000000;
+  position: relative;
+  left: 90px;
+}
+
+.escudo-separador {
+  position: relative;
+  left: 600px;
+  bottom: 50px;
+}
+
+.roja {
+  margin-right: 0;
+  color: #ff0000;
+  position: relative;
+  left: 680px;
+  bottom: 89px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+.dropdown-item a:active {
+  background-color: #CA221F;
+}
+
+.barra-black {
+  background-color: #000000;
+  height: 70px;
+}
+
+/* EL CLUB */
+/* PARALLAX EL CLUB */
+.sect2 {
+  background-image: url("../images/club.jpeg");
+}
+
+.title-parallax {
+  text-align: center;
+}
+
+.box-historia {
+  background: #B60904;
+  margin-left: 50px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  opacity: 0.8;
+  width: 70%;
+  height: 80vh;
+  border-radius: 10px;
+}
+
+.style-parqgraph {
+  margin-bottom: 100px;
+}
+
+.club {
+  position: relative;
+  left: 760px;
+  bottom: 300px;
+  border-radius: 10px;
+}
+
+.parrafo-club {
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  text-align: center;
+  width: 70%;
+  margin-left: 20px;
+}
+
+.style-club {
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: #ff0000;
+  position: relative;
+  bottom: 80px;
+}
+
+.banner-index {
+  width: 850px;
+  height: 200px;
+  border: 1px solid black;
+  margin: auto;
+  background-size: 100% 100%;
+  animation-name: banner;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes banner {
+  0%, 30% {
+    background-image: url("../images/banner1.jpg");
+  }
+  35%, 65% {
+    background-image: url("../images/banner2.jpg");
+  }
+  70%, 100% {
+    background-image: url("../images/banner3.jpg");
+  }
+}
+.mapa {
+  position: relative;
+  top: 200px;
+  padding-left: 50px;
+  text-transform: uppercase;
+  padding-bottom: 200px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 400px) {
+  .parrafo-club {
+    width: 90%;
+  }
+
+  .club {
+    display: none;
+  }
+
+  .banner-index {
+    width: 90%;
+    height: 150px;
+  }
+
+  .maps {
+    width: 90%;
+    height: 90%;
+  }
+}
+/* COLORS */
+/* FONTS */
+/* EXTENDS */
+.sect1, .sect3, .sect4, .sect5, .sect2 {
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.title-parallax1, .title-parallax {
+  display: flex;
+  color: #b22222;
+  width: 800px;
+  height: 100px;
+  margin: auto;
+  padding-top: 250px;
+}
+
+/* EXTEND DISCIPLINAS */
+/* Estilo para los titulos de categorias en DISCIPLINAS */
+.style-categorias {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: #ff0000;
+  text-transform: uppercase;
+  text-indent: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* SEPARADOR */
+.negra {
+  color: #000000;
+  position: relative;
+  left: 90px;
+}
+
+.escudo-separador {
+  position: relative;
+  left: 600px;
+  bottom: 50px;
+}
+
+.roja {
+  margin-right: 0;
+  color: #ff0000;
+  position: relative;
+  left: 680px;
+  bottom: 89px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+.dropdown-item a:active {
+  background-color: #CA221F;
+}
+
+.barra-black {
+  background-color: #000000;
+  height: 70px;
+}
+
+/* PARALLAX DISCIPLINAS */
+.sect3 {
+  background-image: url("../images/red.jpg");
+}
+
+.title-parallax {
+  text-align: center;
+}
+
+.escudo-disciplina {
+  position: relative;
+  right: 100px;
+}
+
+/* FUTBOL MASCULINO */
+/* MEDIAS QUERIES */
+@media screen and (max-width: 400px) {
+  .title-parallax {
+    height: 90%;
+    width: 90%;
+    font-size: 40px;
+  }
+}
+/* COLORS */
+/* FONTS */
+/* EXTENDS */
+.sect1, .sect4, .sect5, .sect2, .sect3 {
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.title-parallax1, .title-parallax {
+  display: flex;
+  color: #b22222;
+  width: 800px;
+  height: 100px;
+  margin: auto;
+  padding-top: 250px;
+}
+
+/* EXTEND DISCIPLINAS */
+/* Estilo para los titulos de categorias en DISCIPLINAS */
+.style-categorias {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: #ff0000;
+  text-transform: uppercase;
+  text-indent: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* SEPARADOR */
+.negra {
+  color: #000000;
+  position: relative;
+  left: 90px;
+}
+
+.escudo-separador {
+  position: relative;
+  left: 600px;
+  bottom: 50px;
+}
+
+.roja {
+  margin-right: 0;
+  color: #ff0000;
+  position: relative;
+  left: 680px;
+  bottom: 89px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  font-size: 50px;
+}
+
+.error-mensaje {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.eror-mensaje-container {
+  text-align: center;
+  color: #000000;
+  position: relative;
+  top: 150px;
+  padding-bottom: 100px;
+}
+
+.parrafo-error {
+  font-size: 30px;
+}
+
+.error-container {
+  text-align: center;
+}
+
+.btn {
+  position: relative;
+  top: 500px;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+.dropdown-item a:active {
+  background-color: #CA221F;
+}
+
+.barra-black {
+  background-color: #000000;
+  height: 70px;
+}
+
+/* PARALLAX INDEX */
+.sect1 {
+  background-image: url("../images/arco.jpeg");
+}
+
+.title-parallax1 {
+  text-align: center;
+}
+
+/* TITLE */
+.lo-ultimo {
+  position: relative;
+  left: 50px;
+  top: 50px;
+  padding-bottom: 50px;
+  color: #CA221F;
+}
+
+/* ARTICULOS */
+.post-list {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 15px;
+}
+
+.contenido-index {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.post-img-1 {
+  background: url("../images/armado1.jpg");
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s;
+}
+
+.post-img-2 {
+  background: url("../images/testeos1.png");
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s;
+}
+
+.post-img-3 {
+  background: url("../images/indumentaria.jpg");
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s;
+}
+
+.post {
+  box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.post:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 1px 14px 2px rgba(0, 0, 0, 0.15);
+}
+
+.post-header {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.post:hover .post-img-1,
+.post:hover .post-img-2,
+.post:hover .post-img-3 {
+  transform: scale(1.1);
+}
+
+.post-body {
+  padding: 15px;
+  text-align: center;
+}
+
+.post-body span {
+  display: inline-block;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.post-body h5 {
+  margin-bottom: 15px;
+}
+
+.post-body p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.post-body .post-link {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  background: #D82926;
+  color: #ffffff;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+.post-body .post-link:hover {
+  background: #E74C3C;
+  box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.banner2 {
+  width: 1000px;
+  height: 200px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 100px;
+  background-size: 100% 100%;
+  animation-name: banner2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes banner2 {
+  0%, 30% {
+    background-image: url("../images/banner4.jpg");
+  }
+  35%, 65% {
+    background-image: url("../images/banner5.jpg");
+  }
+  70%, 100% {
+    background-image: url("../images/banner6.jpg");
+  }
+}
+/* MEDIA QUERIES */
+@media screen and (max-width: 400px) {
+  .title-parallax1 {
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .ultimo {
+    position: relative;
+    right: 20%;
+    padding-bottom: 35px;
+  }
+
+  .banner2 {
+    width: 90%;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .lo-ultimo {
+    padding-bottom: 100px;
+  }
+
+  .operativo-sanitario {
+    position: relative;
+    bottom: 100%;
+    left: 35%;
+  }
+
+  .parrafo-os {
+    position: relative;
+    bottom: 95%;
+    left: 35%;
+    margin-bottom: 50%;
+  }
+
+  .aside2 {
+    position: relative;
+    right: 0;
+    margin-bottom: 20%;
+  }
+}
+/* MEDIAS QUERIES */
+@media screen and (max-width: 960px) {
+  .contenido-index {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 400px) {
+  .contenido-index {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+@import "../components/variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+.dropdown-item a:active {
+    background-color: nth($list: $colores, $n: 4 ); 
+}
+
+.barra-black {
+    background-color: nth($list: $colores, $n: 1 );
+    height: 70px;
+}
+
+/* PARALLAX DISCIPLINAS */
+
+.sect3 {
+    background-image: url("../images/red.jpg");
+    @extend %parallax
+}
+
+.title-parallax {
+    text-align: center;
+    @extend %title-parallax;
+}
+
+.escudo-disciplina {
+    position: relative;
+    right: 100px;
+}
+
+
+/* MEDIAS QUERIES */
+
+@media screen and (max-width: 400px) {
+    .title-parallax {
+        height: 90%;
+        width: 90%;
+        font-size: 40px;
+    }
+}
+

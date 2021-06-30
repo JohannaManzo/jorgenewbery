@@ -1,0 +1,127 @@
+@import "../components/variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+.dropdown-item a:active {
+    background-color: nth($list: $colores, $n: 4 ); 
+}
+
+.barra-black {
+    background-color: nth($list: $colores, $n: 1);
+    height: 70px;
+}
+
+/* EL CLUB */
+
+/* PARALLAX EL CLUB */
+
+.sect2 {
+    background-image: url("../images/club.jpeg");
+    @extend %parallax;
+
+}
+
+.title-parallax {
+    text-align: center;
+    @extend %title-parallax;
+}
+
+.box-historia {
+    background: nth($list: $colores, $n: 3);
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    opacity: 0.8;
+    width: 70%;
+    height: 80vh;
+    border-radius: 10px;
+}
+
+.style-parqgraph {
+    margin-bottom: 100px;
+}
+
+.club {
+    position: relative;
+    left: 760px;
+    bottom: 300px;
+    border-radius: 10px;
+}
+
+.parrafo-club {
+    font-size: 15px ;
+    font-family: nth($list: $fuente, $n: 3 ) ;
+    color: nth($list: $colores, $n: 11);
+    text-align: center;
+    width: 70%;   
+    margin-left: 20px; 
+}
+
+.style-club {
+    font-size: 30px ;
+    font-family: nth($list: $fuente, $n: 3 );
+    color: nth($list: $colores, $n: 7 ) ;
+    position: relative;
+    bottom: 80px;
+}
+
+
+.banner-index {
+    width: 850px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+
+    background-size: 100% 100%;
+
+    animation-name: banner;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate;
+}
+
+
+@keyframes banner {
+    0%, 30% {
+        background-image: url("../images/banner1.jpg");   
+    }
+    35% , 65% {
+        background-image: url("../images/banner2.jpg");   
+    }
+    70% , 100% {
+        background-image: url("../images/banner3.jpg");    
+    }
+}
+
+.mapa {
+    position: relative;
+    top: 200px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    padding-bottom: 200px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 400px) {
+    .parrafo-club {
+        width: 90%;
+    }
+    .club {
+        display: none;
+    }
+    .banner-index {
+        width: 90%;
+        height: 150px;
+    }
+    .maps {
+        width: 90%;
+        height: 90%;
+    }
+}

@@ -1,0 +1,52 @@
+@import "../components/variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+.dropdown-item a:active {
+    background-color: nth($list: $colores, $n: 4 ); 
+}
+
+.barra-black {
+    background-color: nth($list: $colores, $n: 1 );
+    height: 70px;
+}
+
+/* SOCIOS */
+
+.sect4 {
+    background-image: url("../images/pelota.jpg");
+    @extend %parallax
+}
+
+.title-parallax {
+    text-align: center;
+    @extend %title-parallax;
+}
+
+
+.novedades-h1 {
+    position: relative;
+    bottom: 200px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.novedades {
+    font-size: 20px ;
+    font-family: nth($list: $fuente , $n: 3);
+    color: nth($list: $colores, $n: 1 );
+    width: 500px;
+    position: relative;
+    left: 50px;
+    top:100px;
+    padding-bottom: 400px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
